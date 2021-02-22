@@ -12,7 +12,7 @@ namespace FizzBuzz_C_
             
             for (var i = 0; i < length; i++) {
                 int num = i + 1;    
-                if ((num % 3 != 0) && (num % 5 != 0) && (num % 7 != 0)) {
+                if ((num % 3 != 0) && (num % 5 != 0) && (num % 7 != 0) && (num % 11 != 0)) {
                     thingsToPrint.Add(num.ToString());
                 } else {       
                     thingsToPrint.Add("");  
@@ -25,6 +25,9 @@ namespace FizzBuzz_C_
                     }
                     if (num % 7 == 0) {
                         thingsToPrint[i] += "Bang";
+                    }
+                    if (num % 11 == 0) {
+                        thingsToPrint[i] = "Bong";
                     }
                 }         
             }

@@ -1,0 +1,16 @@
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\bin\Debug\net5.0\FizzBuzz-C#.exe
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\bin\Debug\net5.0\FizzBuzz-C#.deps.json
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\bin\Debug\net5.0\FizzBuzz-C#.runtimeconfig.json
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\bin\Debug\net5.0\FizzBuzz-C#.runtimeconfig.dev.json
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\bin\Debug\net5.0\FizzBuzz-C#.dll
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\bin\Debug\net5.0\ref\FizzBuzz-C#.dll
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\bin\Debug\net5.0\FizzBuzz-C#.pdb
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.csprojAssemblyReference.cache
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.AssemblyInfoInputs.cache
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.AssemblyInfo.cs
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.csproj.CoreCompileInputs.cache
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.dll
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\ref\FizzBuzz-C#.dll
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.pdb
+C:\Users\emipat\Documents\Training\FizzBuzz-C#\obj\Debug\net5.0\FizzBuzz-C#.genruntimeconfig.cache

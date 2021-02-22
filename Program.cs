@@ -7,7 +7,13 @@ namespace FizzBuzz_C_
         static void Main(string[] args)
         {
             for (var i = 0; i < 100; i++) {
-                Console.WriteLine(i+1);
+                int num = i + 1;
+                if (num % 3 == 0) {
+                    Console.WriteLine("Fizz");
+                } else {
+                    Console.WriteLine(num);
+                }
+                
             }
         }
     }

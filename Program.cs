@@ -7,7 +7,12 @@ namespace FizzBuzz_C_
     {
         static void Main(string[] args)
         {
-            int length = 255;
+            Console.WriteLine("Enter a positive integer:");
+            bool isInteger = Int32.TryParse(Console.ReadLine(), out int length);
+            if (!isInteger) {
+                System.Environment.Exit(1); // think I should exit in a different way
+            }
+
             List<string> thingsToPrint = new List<string> ();
             
             for (var i = 0; i < length; i++) {

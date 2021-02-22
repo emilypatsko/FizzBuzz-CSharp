@@ -7,12 +7,12 @@ namespace FizzBuzz_C_
     {
         static void Main(string[] args)
         {
-            int length = 196;
+            int length = 255;
             List<string> thingsToPrint = new List<string> ();
             
             for (var i = 0; i < length; i++) {
                 int num = i + 1;    
-                if ((num % 3 != 0) && (num % 5 != 0) && (num % 7 != 0) && (num % 11 != 0) && (num % 13 != 0)) {
+                if ((num % 3 != 0) && (num % 5 != 0) && (num % 7 != 0) && (num % 11 != 0) && (num % 13 != 0) && (num % 17 != 0)) {
                     thingsToPrint.Add(num.ToString());
                 } else {       
                     thingsToPrint.Add("");  
@@ -36,6 +36,16 @@ namespace FizzBuzz_C_
                         } else {
                             thingsToPrint[i] += "Fezz";
                         }                      
+                    }
+                    if (num % 17 == 0) {
+                        if (thingsToPrint[i].Length > 4) {
+                            List<string> thingToReverse = new List<string>();
+                            for (var j = 0; j < thingsToPrint[i].Length/4; j++) {
+                                thingToReverse.Add(thingsToPrint[i].Substring(j * 4, 4));
+                            }
+                            thingToReverse.Reverse();
+                            thingsToPrint[i] = string.Concat(thingToReverse.ToArray());
+                        }                        
                     }
                 }         
             }
